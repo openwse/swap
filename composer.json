@@ -1,15 +1,9 @@
 {
-    "name": "florianv/swap",
+    "name": "openwse/swap",
     "description": "Exchange rates library for PHP",
     "keywords": ["currency", "money", "rate", "conversion", "exchange rates"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Florian Voutzinos",
-            "email": "florian@voutzinos.com",
-            "homepage": "https://voutzinos.com"
-        }
-    ],
+    "authors": [],
     "autoload": {
         "psr-4": {
             "Swap\\": "src/"
@@ -22,7 +16,7 @@
     },
     "require": {
         "php": "^7.1.3 || ^8.0",
-        "florianv/exchanger": "^2.0"
+        "openwse/exchanger": "^2.7"
     },
     "require-dev": {
         "phpunit/phpunit": "^7 || ^8 || ^9",
